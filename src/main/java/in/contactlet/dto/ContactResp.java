@@ -13,6 +13,6 @@ public class ContactResp{
 	    private Long primaryContactId;
 	    private List<String> emails;
 	    private List<String> phoneNumbers;
-	    private List<Long> secondaryContactIds;
+	    private List<Long> secondaryContactId;
 
 }

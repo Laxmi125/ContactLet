@@ -20,4 +20,5 @@ public class ContactController {
     public ResponseEntity<ContactResp> identify(@RequestBody ContactReq request) {
         return ResponseEntity.ok(contactService.identifyContact(request));
     }
+    
 }
